@@ -19,7 +19,7 @@ public class Player extends Actor
         FullScreenMouseInfo mouse = FullScreenWindow.getMouseInfo();
         if (mouse != null) {
             // turnTowards(mouse.getX(), mouse.getY());
-            int localRot = (int)(Math.atan2((double)(mouse.getY() - getY()), (double)(mouse.getX() - getX())) * 180 / Math.PI);
+            localRot = (int)(Math.atan2((double)(mouse.getY() - getY()), (double)(mouse.getX() - getX())) * 180 / Math.PI);
         }
         
         if (isTouching(Weapon.class))
