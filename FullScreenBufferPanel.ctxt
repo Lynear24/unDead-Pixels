@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FullScreenBufferPanel
+comment0.text=\r\n\ This\ panel\ is\ used\ to\ draw\ the\ image\ of\ the\ world\ onto\ it.\r\n\ \r\n\ @author\ Gevater_Tod4711\r\n\ @version\ 1.1\r\n
+comment1.params=
+comment1.target=FullScreenBufferPanel()
+comment1.text=\r\n\ Create\ a\ new\ FullScreenBufferPanel.\r\n
+comment2.params=img
+comment2.target=void\ setImage(java.awt.image.BufferedImage)
+comment2.text=\r\n\ Set\ the\ next\ drawn\ image\ of\ the\ panel.\r\n\ \r\n\ @param\ img\r\n\ \ \ \ \ \ The\ next\ drawn\ image\ of\ the\ panel.\r\n
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+comment3.text=\r\n\ Draw\ the\ worlds\ image\ onto\ the\ fullscreen\ panel.\r\n\ \r\n\ @param\ g\r\n\ \ \ \ \ \ The\ Graphics\ object\ to\ draw\ the\ image.\r\n
+comment4.params=image\ cursorPoint
+comment4.target=void\ setMouseCursor(java.awt.image.BufferedImage,\ java.awt.Point)
+comment4.text=\r\n\ Set\ the\ mouse\ cursor\ for\ this\ panel.\r\n\ \r\n\ @param\ image\r\n\ \ \ \ \ \ The\ image\ of\ the\ new\ mouse\ cursor.\r\n\ \r\n\ @param\ cursorPoint\r\n\ \ \ \ \ \ The\ click\ point\ of\ the\ new\ cursor.\r\n
+comment5.params=cursor
+comment5.target=void\ setMouseCursor(java.awt.Cursor)
+comment5.text=\r\n\ Set\ the\ mouse\ cursor\ for\ this\ panel.\r\n\ \r\n\ @param\ cursor\r\n\ \ \ \ \ \ The\ new\ cursor.\r\n
+numComments=6

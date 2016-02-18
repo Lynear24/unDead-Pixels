@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FullScreenKeyInfo
+comment0.text=\r\n\ Objects\ of\ this\ class\ represent\ KeyEvent\ objects.\r\n\ This\ objects\ can\ be\ used\ to\ check\ which\ keys\ are\ currently\ pressed.\r\n\ \r\n\ @author\ Gevater_Tod4711\r\n\ @version\ 1.1\r\n
+comment1.params=keyEvent
+comment1.target=FullScreenKeyInfo(java.awt.event.KeyEvent)
+comment1.text=\r\n\ Create\ a\ new\ FullScreenKeyInfo\ object\ with\ a\ KeyEvent\ object.\r\n\ \r\n\ @throws\ IllegalArgumentException\r\n\ \ \ \ \ \ An\ IllegalArgumentException\ is\ thrown\ when\ the\ given\ KeyEvent\ object\ is\ null.\r\n
+comment2.params=keyName
+comment2.target=boolean\ isKeyDown(java.lang.String)
+comment2.text=\r\n\ Check\ whether\ a\ key\ is\ pressed\ for\ this\ object.\r\n\ This\ method\ is\ not\ static\ and\ has\ not\ the\ same\ funktion\ as\ Greenfoot.isKeyDown(String).\r\n\ The\ equivalent\ to\ Greenfoot.isKeyDown(String)\ is\ FullScreenWindow.isKeyDown(String).\r\n
+comment3.params=
+comment3.target=java.lang.String\ getKey()
+comment3.text=\r\n\ Get\ the\ name\ of\ the\ key\ this\ KeyEvent\ represents.\r\n
+numComments=4

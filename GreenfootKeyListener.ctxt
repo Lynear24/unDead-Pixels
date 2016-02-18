@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GreenfootKeyListener
+comment0.text=\r\n\ This\ KeyListener\ is\ used\ to\ react\ on\ KeyEvents.\ \r\n\ All\ incoming\ KeyEvents\ are\ passed\ on\ to\ the\ fullscreenwindow.\r\n\ \r\n\ @author\ Gevater_Tod4711\r\n\ @version\ 1.1\r\n
+comment1.params=window
+comment1.target=GreenfootKeyListener(FullScreenWindow)
+comment1.text=\r\n\ Create\ a\ new\ GreenfootKeyListener\ with\ a\ reference\ to\ the\ calling\ FullScreenWindow\ object.\r\n
+comment2.params=e
+comment2.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment2.text=\r\n\ React\ when\ a\ key\ was\ pressed.\r\n
+comment3.params=e
+comment3.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment3.text=\r\n\ React\ when\ a\ key\ was\ released.\r\n
+comment4.params=e
+comment4.target=void\ keyTyped(java.awt.event.KeyEvent)
+numComments=5

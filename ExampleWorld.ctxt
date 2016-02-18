@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ExampleWorld
+comment0.text=\r\n\ This\ world\ is\ a\ very\ simple\ example\ for\ a\ fullscreen\ world.\r\n\ \r\n\ @author\ Gevater_Tod4711\r\n\ @version\ 1.1\r\n
+comment1.params=
+comment1.target=ExampleWorld()
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=Billboard\ GetInfo()
+comment4.params=
+comment4.target=Billboard\ GetWepInfo()
+comment5.params=
+comment5.target=Player\ GetPlayer()
+comment6.params=
+comment6.target=int\ GetPlayerLives()
+comment7.params=
+comment7.target=void\ DecPlayerLives()
+comment8.params=
+comment8.target=void\ RespawnPlayerWithDefaultWeps()
+comment9.params=
+comment9.target=void\ IncScore()
+numComments=10
