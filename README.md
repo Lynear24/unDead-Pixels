@@ -1,5 +1,5 @@
 Undead pixels is fun game developed by Roy Pineda, Nyle Maliwat, and Bill William Soliman
-so far, only the weapon mechanics have been fixed, and there are more to come for in the future
+so far, only the weapon mechanics are properly working, and there are more features to come in the future
 
 
 Plans:
@@ -10,3 +10,4 @@ Plans:
 	- Fix the reload sound of semi-auto-shotgun
 	- Saiga 12
 	- Add different types of rounds for different guns (HE shells, Slug for shotgun, etc.)
+
