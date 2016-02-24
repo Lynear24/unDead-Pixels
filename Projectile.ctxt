@@ -6,4 +6,6 @@ comment1.target=void\ act()
 comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Projectile\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 comment2.params=newVel\ initialRot\ wepDmg\ wepOwner
 comment2.target=Projectile(int,\ int,\ int,\ Player)
-numComments=3
+comment3.params=newDmg
+comment3.target=void\ setDamage(int)
+numComments=4

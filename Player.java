@@ -153,7 +153,7 @@ public class Player extends Actor
             break;
             
             case 2:
-            WepEquipped = "Shotgun";
+            WepEquipped = "UTS 15";
             break;
         }
         

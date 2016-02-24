@@ -53,4 +53,9 @@ public class Projectile extends Actor
         owner = wepOwner;
         setRotation(initialRot);
     }
+
+    public void setDamage(int newDmg)
+    {
+	    dmg = newDmg;
+    }
 }
