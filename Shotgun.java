@@ -29,7 +29,7 @@ public class Shotgun extends Weapon
         cdRate = 7;
         cdFire = 100;
         cdReload = 250;
-        reloadSound = new GreenfootSound("shotgun_reload.wav");
+        reloadSound = new GreenfootSound("shotgun_pump.wav");
         fireSound = new GreenfootSound("shotgun_fire.wav");
         emptySound = new GreenfootSound("shotgun_empty.wav");
     }
@@ -58,7 +58,8 @@ public class Shotgun extends Weapon
         // 
         }
         
-        playEmptySound();
+	else 
+		playEmptySound();
     }
     
     public int getWepNumber()

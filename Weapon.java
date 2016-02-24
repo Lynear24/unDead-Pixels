@@ -104,7 +104,7 @@ public class Weapon extends Actor
     
     public void UpdateInfo()
     {
-       if (ammo > 0 || roundInMag > 0)
+       if (ammo > 0)
        {
            if ( roundInMag > magSize )
            {
@@ -167,7 +167,7 @@ public class Weapon extends Actor
         }
     }
     
-    private int Clamp(int inp, int min, int max)
+    protected int Clamp(int inp, int min, int max)
     {
         return inp > max ? max : inp < min ? min : inp;
     }

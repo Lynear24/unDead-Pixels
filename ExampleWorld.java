@@ -21,7 +21,7 @@ public class ExampleWorld extends FullScreenWorld
         mainPlayer = new Player();
         addObject(mainPlayer, 100, 100);
         addObject(new MouseCoordinate(), 100, 30);
-        addObject(new Shotgun(), 500, 500);
+        addObject(new DualTubeShotgun(), 500, 500);
         addObject(new Pistol(), 200, 200);
         addObject(new AssaultRifle(), 200, 300);
         
